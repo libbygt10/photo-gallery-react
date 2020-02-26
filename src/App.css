@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: #000000;
+}
+.vacationh1 {
+  position: absolute;
+  top: 20px;
+  margin-left: 350px;
+  z-index: 1;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 100px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.contact-card {
+  flex-basis: 250px;
+  margin: 20px;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-card > h3 {
+  text-align: justify;
+}
+
+.contact-card > p {
+  font-size: 12px;
+}
+
+.copyright {
+  margin-top: 200px;
+  padding-top: 20px;
+  border-top: 1px solid #ffffff;
+  width: 80%;
+}
